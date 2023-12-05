@@ -1,0 +1,90 @@
+header {
+	background: #3f4cfb;
+	padding: 5px 0;
+	background-image: linear-gradient(to left, rgb(41, 50, 230), rgb(121, 202, 240), rgba(41, 50, 230, 0.653));
+
+}
+
+
+
+nav {
+	position: relative;
+	top: 0px;
+	height:60px;
+	left: 350px;
+	
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight:bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.Turmas li {
+	display: inline-block;
+	width: 25%;
+		
+}
+
+.footer {
+	background: #3f5efb;
+	padding: 10px 260px;
+	background-image: linear-gradient(to left, rgba(41, 50, 2303)), rgb(121, 202, 240), rgb(41, 50, 230);
+	position: absolute;
+   	bottom: 0px; 
+	font-size: 2em;
+	font-weight: bold; 
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+h2,h2{
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1,5em;
+	font-weight: bold;
+}
+
+h1{ 
+	margin: 10px;
+	padding: 2px;
+	font-size: 2em;
+	font-weight: bold; 
+	font-family: 'Rubik Distressed', cursive;
+
+	
+}
+
+
+
+p, ul {
+	margin: 4px;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+

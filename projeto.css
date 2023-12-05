@@ -1,0 +1,23 @@
+body {
+    background: #fbe23f;
+	padding: 20px 160px;
+	background-image: linear-gradient(to left, rgba(26, 61, 151, 0.653)), rgb(72, 188, 234), rgb(195, 202, 204);
+}
+p, h1, h2, h3, h4 {align="text-justify: ;"
+}
+
+
+
+body {background: (Gainsboro) ;
+}
+
+.footer {
+	background: #fbe23f;
+	padding: 20px 160px;
+	position: absolute;
+	bottom: 0px; 
+	font-size: 2em;
+	font-weight: bold; 
+	text-align: center;
+
+}
