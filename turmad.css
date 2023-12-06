@@ -1,53 +1,78 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <title>1ª Série Turma A</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="turmad.css">
-  </head>
+header {
+	background: #fbe23f;
+	padding: 20px 0;
+	background-image: linear-gradient(to left, rgb(76, 41, 230), rgb(142, 203, 239), rgba(245, 238, 236, 0.653));
 
-  <body>
-      <header>
-            
-            <h1 align="center">Componente Pensamento Computacional</h1>
-            <h1 align="center">Projetos desenvolvidos pelos estudantes da 1ª série Turma B do Colégio Estadual Carlos Gomes - Componente Pensamento Computacional ministrado pela professora Angela Maria Botoli Bressan</h1>
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet"> 
-      </header>         
-       
-    <main>
-        <nav>
-          <ul class="Turmas">
-            <li>
-                <h1></h1>
-                  <a href="https://pedrojhuan2224r.github.io/di/"><img src="ckauto.jpg"></a>
-            </li>
+}
 
-            <li>
-                <h1></h1>
-                  <a href="https://lucasdanieldaporesantos.github.io/ASTROS-DA-VILA-FC/"><img src="astrosdavila.jpg"></a>
-            </li>
+.Turmas {
+	position:relative;
+	width: 940px;
+	margin: 0 auto;
+}
 
-            <li>
-                <h1></h1>
-                  <a href="https://emillylipaus.github.io/food-/"><img src="foods.jpg"></a>
-            </li>
-            <li>
-                <h1></h1>
-                  <a href="https://gabrielysantoslopes.github.io/pretty/"><img src="pretty.jpg"></a>
-            </li>
-            <li>
-                <h1></h1>
-                  <a href="https://lizandravitoria.github.io/README/"><img src="code.jpg"></a>
-            </li>
-            
-          </ul>
-        </nav>
-      
-    </main>
+nav {
+	position: relative;
+	top: 50px;
+	height:60px;
+	left: 50px;
+	
+}
 
-  </body>
+.img {
+    height: 250px;
+    width: 350px;
+}
+    
 
-  </html>
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight:bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.empresas li {
+	display: inline-block;
+}
+
+
+h2 {
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1,5em;
+	font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1,5em;
+	font-weight: bold;
+
+}
+
+h1{ 
+	margin: 10px;
+	padding: 2px;
+	font-size: 2em;
+	font-weight: bold; 
+	font-family: 'Rubik Distressed', cursive;
+
+	
+}
+
+
+
+p, ul {
+	margin: 4px;
+	padding: 4px;
+}
